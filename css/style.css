@@ -50,7 +50,7 @@ a[href^="link"]{
 
 .maintext{
     margin-left: 160px;
-    font-size: 80px;
+    font-size: 72px;
 }
 
 /* #endregion-common-rules */
@@ -82,6 +82,12 @@ a[href^="link"]{
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.text-left{
+    margin-top: 13rem;
+    margin-left: 10rem;
+}
 }
 /* #endregion-utility */
 
