@@ -23,6 +23,15 @@
     --font-family: font-family: 'Open Sans';
 }
 
+a[href^="https"]{
+    margin-bottom: 38px;
+    vertical-align: 12px;
+    padding-left: 45px;
+    color: #000000;
+    text-decoration: none;
+}
+    
+
 
 /* #endregion-common-rules */
 
@@ -40,10 +49,15 @@
     clear: both;
 }
 
+.logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 /* #endregion-utility */
 
 
-/* #region-nabar */
+/* #region-navbar */
 
 .navbar{
     width:100%;
@@ -53,7 +67,7 @@
 
 .col-left{
     width: 50%;
-    background-color: #FFD830;
+    /* background-color: #FFD830; */
     height: 60px;
     float: left;
 }
