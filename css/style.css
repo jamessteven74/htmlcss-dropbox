@@ -10,6 +10,7 @@
 }
 
 :root{
+    --background-white: #ffffff;
     --background-light: #B4D0E7;
     --background-black: #000000;
     --background-blue-sky: #0061FF;
@@ -24,13 +25,24 @@
 }
 
 a[href^="https"]{
-    margin-bottom: 38px;
-    vertical-align: 12px;
+    /* margin-bottom: 38px; */
+    vertical-align: 8px;
     padding-left: 45px;
     color: #000000;
     text-decoration: none;
 }
     
+a[href^="link"]{
+    vertical-align: -17px;
+    padding-right:10px;
+    padding-right: 45px;
+    text-decoration: none;
+    color: var(--background-black);
+}
+
+.container-link{
+    margin-left: 225px;
+}
 
 
 /* #endregion-common-rules */
@@ -54,6 +66,15 @@ a[href^="https"]{
     padding-left: 20px;
 }
 
+.button{
+    vertical-align: -17px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* #endregion-utility */
 
 
@@ -62,7 +83,7 @@ a[href^="https"]{
 .navbar{
     width:100%;
     height: 60px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .col-left{
@@ -74,7 +95,7 @@ a[href^="https"]{
    
 .col-right{
     width: 50%;
-    background-color: #12aedd;
+    /* background-color: #12aedd; */
     height: 60px;
     float: left;
 }
