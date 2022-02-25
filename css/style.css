@@ -53,6 +53,12 @@ a[href^="link"]{
     font-size: 72px;
 }
 
+.col_2_right> .jumbo{
+    width: 100%;
+    margin-top: 304px;
+}
+
+
 /* #endregion-common-rules */
 
 
@@ -84,10 +90,37 @@ a[href^="link"]{
     padding-right: 10px;
 }
 
-.text-left{
+.text-left,{
     margin-top: 13rem;
     margin-left: 10rem;
 }
+    
+
+.button_free{
+    margin-top: 41px;
+}
+
+
+.button-free-charge{
+    margin-left: 10rem;
+    background-color: var(--background-blue);
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}
+
+.cancel_request{
+    margin-left: 10rem;
+    margin-top: 21px;
+}
+
+/* ARROW TO REVIEW */
+.down_arrow{
+    margin-left:12rem;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+
 }
 /* #endregion-utility */
 
