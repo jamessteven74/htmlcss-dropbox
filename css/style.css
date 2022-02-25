@@ -9,6 +9,10 @@
    padding: 0;
 }
 
+body{
+    font-family: var(--font-family);
+}
+
 :root{
     --background-white: #ffffff;
     --background-light: #B4D0E7;
@@ -21,7 +25,7 @@
     --background-red: #D5001F;
     --background-variable-red: #FF1C1C;
     --background-sun: #FFD830;
-    --font-family: font-family: 'Open Sans';
+    --font-family: 'Open Sans', sans-serif;
 }
 
 a[href^="https"]{
@@ -44,6 +48,10 @@ a[href^="link"]{
     margin-left: 225px;
 }
 
+.maintext{
+    margin-left: 160px;
+    font-size: 80px;
+}
 
 /* #endregion-common-rules */
 
@@ -123,6 +131,8 @@ a[href^="link"]{
     background-color: #A2D39B;
     float: left;
 }
+
+
 /* #endregion-header */
 
 
