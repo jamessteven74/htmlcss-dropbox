@@ -476,24 +476,32 @@ a[href^="bt_lg"]{
 .colsection-left2{
     width: 333px;
     height: 265px;
-    background-color: #0061FF;
+    /* background-color: #0061FF; */
     float: left;
     margin-left: 250px;
     margin-top: 250px;
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size: cover;
 }
 
 .colsection-midle2{
     width: 333px;
     height: 265px;
-    background-color: #0061FF;
+    /* background-color: #0061FF; */
     float: left;
     margin-top: 250px;
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size: cover;
 }
 
 .colsection-right2{
     width: 333px;
     height: 265px;
-    background-color: #0061FF;
+    /* background-color: #0061FF; */
+    float: left;
+    margin-top: 250px;
+    background-image: url(../img/business-feature-security.png);
+    background-size: cover;
 }
 
 .colsectionbase{
@@ -502,18 +510,11 @@ a[href^="bt_lg"]{
     background-color: #12aedd;
     float: left;
     margin-left: 250px;
-    margin-top: 500px;
-
+    margin-top: 370px;
 }
 
-
-
-.squareleft{
-    width: 400px;
-    height: 400px;
-    background-color: #0061FF;
-    /* margin-left:250px; */
-    float: left;
+.scopri{
+    color: var(--background-blue-sky);
 }
 
 .switch{
@@ -523,6 +524,26 @@ a[href^="bt_lg"]{
 .switchon{
     margin-top: 1rem;
 }
+
+
+
+.container2{
+    width: 1440px;
+}
+
+
+
+
+.squareleft{
+    width: 300px;
+    height: 400px;
+    background-color: #0061FF;
+    /* margin-left:250px; */
+    float: left;
+}    
+
+
+
 .squaremidle{
     width: 710px;
     height: 400px;
@@ -531,7 +552,7 @@ a[href^="bt_lg"]{
 }
 
 .squareright{
-    width: 400px;
+    width: 300px;
     height: 400px;
     background-color: aqua;
     float: left;
