@@ -414,8 +414,14 @@ a[href^="bt_lg"]{
     float: left;
     /* background-color: #9715b8; */
     margin-left: 40px;
-    /* clear: right; */
 }
+
+.execut_operations{
+    margin-top: 70px;
+    margin-left: -396px;
+}
+
+
 
 /* #endregion-main */
 
@@ -432,29 +438,62 @@ a[href^="bt_lg"]{
 
 
 .site-section{
-    width: 1250px;
+    width: 1440px;
 }
 
 .colsection-left{
-    width: 250px;
-    height: 600px;
+    margin-top:70px;
+    width: 333px;
+    height: 265px;
     background-color: #D5001F;
     margin-left: 250px;
     float: left;
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size: cover;
 }
 
 .colsection-midle{
-    width: 250px;
-    height: 600px;
-    background-color: #15b85e;
+    margin-top:70px;
+    width: 333px;
+    height: 265px;
+    /* background-color: #15b85e; */
     float: left;
+    background-image: url(../img/business-feature-coordinate-it.png);
+    background-size: cover;
 }
 
 .colsection-right{
-    width: 480px;
-    height: 600px;
-    background-color: bisque;
+    margin-top:70px;
+    width: 333px;
+    height: 265px;
+    /* background-color: bisque; */
     float: left;
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size: cover;
+   
+}
+
+.colsection-left2{
+    width: 333px;
+    height: 265px;
+    background-color: #0061FF;
+    float: left;
+    margin-left: 250px;
+    margin-top: 250px;
+}
+
+.colsection-midle2{
+    width: 333px;
+    height: 265px;
+    background-color: #0061FF;
+    float: left;
+    margin-top: 250px;
+}
+
+.colsection-right2{
+    width: 333px;
+    height: 265px;
+    background-color: #0061FF;
 }
 
 .colsectionbase{
@@ -463,6 +502,8 @@ a[href^="bt_lg"]{
     background-color: #12aedd;
     float: left;
     margin-left: 250px;
+    margin-top: 500px;
+
 }
 
 
@@ -475,6 +516,13 @@ a[href^="bt_lg"]{
     float: left;
 }
 
+.switch{
+    margin-top: 270px;
+}
+
+.switchon{
+    margin-top: 1rem;
+}
 .squaremidle{
     width: 710px;
     height: 400px;
