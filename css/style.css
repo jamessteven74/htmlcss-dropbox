@@ -1,4 +1,8 @@
 
+/* entity */
+
+/* ☺	9786 */
+/* &#10003; check; */
 
 
 /* #region-common-rules */
@@ -28,6 +32,9 @@ body{
     --font-family: 'Open Sans', sans-serif;
 }
 
+
+/* #region-common-rule-nav */
+
 a[href^="https"]{
     /* margin-bottom: 38px; */
     vertical-align: 8px;
@@ -44,9 +51,22 @@ a[href^="link"]{
     color: var(--background-black);
 }
 
+a[href^="bt_lg"]{
+ color: white;
+ background-color: var(--background-blue-sky);
+ text-decoration: none;
+
+}
+
 .container-link{
     margin-left: 225px;
 }
+/* #endregion-common-rule-nav */
+
+
+
+
+/* #region-commonrule-header */
 
 .maintext{
     margin-left: 160px;
@@ -56,10 +76,17 @@ a[href^="link"]{
 
 .col_2_right> .jumbo{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 42px;
 }
 
+.button1, .button2{
+    display: inline-block;
+}
+.button2{
+    margin-left: 25px;
+}
 
+/* #endregion-common-rule-header */
 
 /* #endregion-common-rules */
 
@@ -105,7 +132,7 @@ a[href^="link"]{
 
 .button-free-charge{
     margin-left: 10rem;
-    background-color: var(--background-blue);
+    background-color: #0061FF;
     text-decoration: none;
     color: white;
     padding: 10px 25px;
@@ -125,9 +152,36 @@ a[href^="link"]{
 
 .find_business{
     position: absolute;
-    top: 87px;
-    left: 115px;
+    top: 154px;
+    left: 1px;
     Font-size: 40px;
+}
+
+.radio_button1{
+    position: absolute;
+    top: 257px;
+    left: 1px;
+}
+
+.professional{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.user{
+    margin-left:2rem;
+    margin-top: 3rem;
+}
+
+.try_free{
+    margin: 4rem 2rem;
+    background-color: #0061FF;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 9px;
+    
 }
 /* #endregion-utility */
 
@@ -202,7 +256,7 @@ a[href^="link"]{
     width: 1000px;
     height: 300px;
     margin-left: 250px;
-    background-color: yellow;
+    /* background-color: yellow; */
     float: top;
     position: relative;
 }
@@ -213,47 +267,152 @@ a[href^="link"]{
 /* three colums */
 .col_left_33{
     width: 300px;
-    height: 700px;
-    background-color: #3419A0;
+    height: 1000px;
+    /* background-color: #3419A0; */
     margin-left: 250px;
     float: left;
+    border: 1px solid lightgrey;
+}
+ 
+.single_border{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.professional_bold{
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+
+.mese{
+    color: grey;
+    margin-top: 1rem;
+}
+
+.plain{
+    margin-left: 2rem;
 }
 
 .col_midle_33{
     width: 300px;
-    height: 700px;
-    background-color: #3419A0;
+    height: 1000px;
+    /* background-color: #3419A0; */
     float: left;
     margin-left: 40px;
+    border: 1px solid lightgrey;
 }
 
+.alternative, .buynow{
+    display: inline-block;
+}
+	
+
+.buynow{
+    color: var(--background-blue-sky);
+}
+
+.small_border{
+    border: 1px solid lightgray;
+    width: 20%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.voice{
+    padding-bottom: 1rem;
+}
+
+.important{
+    margin-bottom: 1rem;
+}
 .col_right_33{
     width: 300px;
-    height: 700px;
-    background-color: #3419A0;
+    height: 1000px;
+    /* background-color: #3419A0; */
     float: left;
     margin-left: 40px;
+    border: 1px solid lightgrey;
 }
 .col_base{
     width: 980px;
-    height: 300px;
+    height: 245px;
     float: left;
-    background-color: #15b85e;
+    /* background-color: #15b85e; */
     margin-left: 250px;
+    margin-top: 49px;
+    border: 1px solid lightgrey;
+    position: relative;
 }
+
+
+.small_border_base{
+    width: 100%;
+    margin-top: 3rem;
+    border:1px solid lightgrey;
+}
+
+
+    
+
+.enterprise{
+    margin-left: 2rem;
+}
+.enterprise_h2{
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.contatta_ufficio{
+    position: absolute;
+    top: 6rem;
+    right: 2rem;
+    text-align: center;
+    padding: 7px 9px;
+    background-color: var(--background-blue-sky);
+    width: 300px;
+    height: 40px;
+}
+   
+.contacts{
+    padding-bottom: 1rem
+}
+
+#solution{
+    padding-top: 10px;
+}
+.contatta{
+    color: white;
+    text-decoration: none;
+    /* vertical-align: 6px; */
+}
+
 
 .myimg{
     width: 350px;
     height: 300px;
-    background-color: #3419A0;
+    /* background-color: #3419A0; */
     margin-left: 250px;
     float: left;
+    background-image: url(../img/partner.png);
+    background-size: cover;
 }
+
+.meet, .meet1, .link_meet{
+    margin-top: 2rem;
+}
+
+.meet_partner{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 6px 20px;
+}
+
 .contact_partner{
     width: 590px;
     height: 300px;
     float: left;
-    background-color: #9715b8;
+    /* background-color: #9715b8; */
     margin-left: 40px;
     /* clear: right; */
 }
