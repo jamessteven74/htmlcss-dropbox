@@ -508,7 +508,7 @@ a[href^="bt_lg"]{
 .colsectionbase{
     width: 600px;
     height: 250px;
-    background-color: #12aedd;
+    /* background-color: #12aedd; */
     float: left;
     margin-left: 250px;
     margin-top: 370px;
@@ -655,7 +655,7 @@ a[href^="bt_lg"]{
 
 
 .squaremidle{
-    width: 699px;
+    width: 712px;
     height: 400px;
    background-color: var(--backgound-ultralight-grey);
     float: left;
@@ -807,7 +807,7 @@ a[href^="bt_lg"]{
 .faq{
     width: 100%;
     height: 400px;
-    background-color: #3419A0;
+    /* background-color: #3419A0; */
     /* margin-left: 250px; */
 }
 
@@ -822,6 +822,7 @@ a[href^="bt_lg"]{
 hr{
     margin-right:200px;
     margin-top: 2rem;
+    background-color: lightgrey;
 }
 
 .diference{
@@ -838,42 +839,65 @@ hr{
 
 .site-footer{
     width: 100%;
+    margin-top: 180px;
+    background-color: var(--background-black)
 }
 
 .col-1{
-    width: 500px;
+    width: 255px;
     height: 500px;
-    background-color: #0061FF;
+    margin-left: 1rem;
     float: left;
-    /* margin-left: 250px; */
+   
 }
 
 .col-2{
-    width: 100px;
+    width: 255px;
     height: 500px;
-    background-color: #00ff15;
+    /* background-color: #00ff15; */
     float: left;
+    margin-left: 1rem;
 }
 
 .col-3{
-    width: 100px;
+    width: 255px;
     height: 500px;
-    background-color: #fbff00;
+    /* background-color: #fbff00; */
     float: left;
+    margin-left: 1rem;
 }
 
 .col-4{
-    width: 100px;
+    width: 255px;
     height: 500px;
-    background-color: #ff4800;
+    /* background-color: #ff4800; */
     float: left;
+    margin-left: 1rem;
+    
 }
 
 .col-5{
-    width: 712px;
+    width: 255px;
     height: 500px;
-    background-color: #ff00dd;
+    /* background-color: #ff00dd; */
     float: left;
+    
 }
 
+.dropbox{
+    margin-left:4rem;
+    margin-top: 5rem;
+    
+}
+
+.special{
+    color: white;
+    
+}
+.undermenu, .whydrop, .faqdropbox{
+    margin-top:1rem;
+    text-decoration: none;
+    color: white;
+    
+}
 /* #endregion-footer */
