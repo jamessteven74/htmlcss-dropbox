@@ -63,7 +63,11 @@ a[href^="bt_lg"]{
 
 }
 
-i
+i.fa-chevron-down{
+    margin-left: 17rem;
+}
+
+
 .container-link{
     margin-left: 225px;
 }
