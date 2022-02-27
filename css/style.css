@@ -1,8 +1,5 @@
 
-/* entity */
 
-/* ☺	9786 */
-/* &#10003; check; */
 
 
 /* #region-common-rules */
@@ -15,7 +12,11 @@
 
 body{
     font-family: var(--font-family);
+   
 }
+
+
+
 
 :root{
     --background-white: #ffffff;
@@ -52,6 +53,9 @@ a[href^="link"]{
     color: var(--background-black);
 }
 
+i.fa-check{
+    color:var(--background-blue)
+}
 a[href^="bt_lg"]{
  color: white;
  background-color: var(--background-blue-sky);
@@ -59,6 +63,7 @@ a[href^="bt_lg"]{
 
 }
 
+i
 .container-link{
     margin-left: 225px;
 }
@@ -273,13 +278,24 @@ a[href^="bt_lg"]{
     margin-left: 250px;
     float: left;
     border: 1px solid lightgrey;
+    position: relative;
 }
  
+.fa-user{
+    position: absolute;
+    top: 25px;
+    left:113px;
+}
+.singolo, .building{
+    font-family: var(--font-family);
+}
 .single_border{
     width: 100%;
     height: 70px;
     border-bottom: 1px solid lightgrey;
 }
+
+
 
 .professional_bold{
     font-size: 35px;
@@ -302,10 +318,20 @@ a[href^="bt_lg"]{
     float: left;
     margin-left: 40px;
     border: 1px solid lightgrey;
+    position: relative;
 }
+
+.fa-building{
+    position: absolute;
+    top:25px;
+    left:113px;
+}
+
 
 .alternative, .buynow{
     display: inline-block;
+    
+    
 }
 	
 
@@ -333,7 +359,11 @@ a[href^="bt_lg"]{
     float: left;
     margin-left: 40px;
     border: 1px solid lightgrey;
+    position: relative;
 }
+
+
+
 .col_base{
     width: 980px;
     height: 245px;
@@ -345,11 +375,17 @@ a[href^="bt_lg"]{
     position: relative;
 }
 
+.building1{
+    position: absolute;
+    top:1em;
+    left: 468px;
+}
 
 .small_border_base{
     width: 100%;
     margin-top: 3rem;
     border:1px solid lightgrey;
+    
 }
 
 
