@@ -290,7 +290,7 @@ i.fa-chevron-down{
     top: 25px;
     left:113px;
 }
-.singolo, .building{
+.singolo, .building, .italiano{
     font-family: var(--font-family);
 }
 .single_border{
@@ -433,6 +433,7 @@ i.fa-chevron-down{
     height: 300px;
     /* background-color: #3419A0; */
     margin-left: 250px;
+    margin-top: 5rem;
     float: left;
     background-image: url(../img/partner.png);
     background-size: cover;
@@ -455,6 +456,7 @@ i.fa-chevron-down{
     float: left;
     /* background-color: #9715b8; */
     margin-left: 40px;
+    margin-top: 5rem;
 }
 
 .execut_operations{
@@ -552,8 +554,12 @@ i.fa-chevron-down{
     float: left;
     margin-left: 250px;
     margin-top: 370px;
+    margin-bottom: -61px;
 }
 
+.boxscopri{
+    margin-top: 35px;
+}
 .scopri{
     color: var(--background-blue-sky);
 }
@@ -825,6 +831,7 @@ i.fa-chevron-down{
 .bringdropbox{
     margin-left: 16rem;
     margin-top: 5rem;
+    color: var(--background-cremisi);
     /* display: inline-block; */
 }
 
@@ -890,6 +897,20 @@ hr{
     float: left;
    
 }
+
+.borderdown{
+    margin-top:88px;
+    width:152px;
+}
+
+
+.fa-globe-africa{
+    color: white;
+    margin-top: auto;
+    line-height: px;
+    vertical-align: -31px;
+}
+
 
 .col-2{
     width: 255px;
