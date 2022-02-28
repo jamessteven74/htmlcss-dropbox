@@ -53,6 +53,9 @@ a[href^="link"]{
     color: var(--background-black);
 }
 
+a:hover{
+    background-color: yellow;
+}
 
 
 
@@ -71,6 +74,8 @@ i.fa-chevron-down{
 .container-link{
     margin-left: 225px;
 }
+
+
 /* #endregion-common-rule-nav */
 
 
@@ -89,6 +94,9 @@ i.fa-chevron-down{
     margin-top: 42px;
 }
 
+.fa-arrow-down{
+    color: var(--background-blue-sky)
+}
 
 
 /* #endregion-common-rule-header */
@@ -982,3 +990,8 @@ hr{
     
 }
 /* #endregion-footer */
+
+.subnav-content{
+    float: left;
+}
+
