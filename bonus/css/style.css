@@ -991,7 +991,9 @@ hr{
 }
 /* #endregion-footer */
 
-.subnav-content{
-    float: left;
+.menu>ul{
+    float:right;
+    list-style: none;
+    
 }
 
