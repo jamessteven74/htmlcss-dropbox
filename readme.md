@@ -1,6 +1,6 @@
 # Dropbox site replication
 
-## ## Technologies
+## Technologies
 
 * [html]
 * [css]
